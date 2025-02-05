@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.login-container {
+    width: 400px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    height: 400px;
+}
+
+.Regi-container {
+    width: 400px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    height: 500px;
+    padding-bottom: 70px;
+}
+.logo {
+    width: 60%;
+    height: 40%;
+    margin-bottom: 20px;
+}
+
+h1{
+    font-size: 20px;
+    color: #0c158d;
+    margin-bottom: 20px;
+}
+
+/* .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+} */
+
+input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* .password-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.password-container input {
+    border: none;
+    flex-grow: 1;
+}
+
+.password-container .toggle {
+    cursor: pointer;
+    padding: 10px;
+    border-left: 1px solid #ccc;
+} */
+
+.login-button {
+    background-color:rgb(42, 42, 181);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 80%;
+    margin-top: 10px;
+}
+
+.login-button:hover {
+    background-color: #34cc3c;
+}
+
+/* .forgot-link {
+    margin-top: 10px;
+    display: block;
+    color: #888;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.forgot-link:hover {
+    color: #f06b33;
+} */
